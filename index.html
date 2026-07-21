@@ -10,11 +10,33 @@
       margin: 0;
       font-family: sans-serif;
       background: #fff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .book-button {
+      display: inline-block;
+      padding: 16px 32px;
+      background-color: #6c5ce7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(108, 92, 231, 0.35);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .book-button:active {
+      transform: scale(0.97);
+      box-shadow: 0 2px 6px rgba(108, 92, 231, 0.25);
     }
   </style>
     </head>
     <body>
-        <a href="https://dikidi.net/#widget=213978">Записаться на стрижку</a>      
+        <a href="https://dikidi.net/#widget=213978" class="book-button">Записаться на стрижку</a>      
         <script type="text/javascript" src="https://dikidi.net/assets/js/widget_record/widget2.min.js?v=1773811740">
 
       </script>
